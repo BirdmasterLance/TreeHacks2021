@@ -1,10 +1,11 @@
 body {
-    background-color: #fbf6f0;
+    background-color: #ffda77;
     margin: 0;
+    height: 100%;
 }
 
 .top-bar {
-    background-color: #ffda77;
+    background-color: #ffa45b;
     float: top;
     overflow: hidden;
     position: relative;
@@ -17,16 +18,143 @@ body {
     padding-bottom: 17px;
     padding-left: 0px;
     padding-right: 40px;
+    font-family: 'Paytone One';
     font-size: 30pt;
     text-align: center;
     text-decoration: none;
 }
 
-.top-bar a.title{
+.top-bar a.title {
     float: left;
     color: #000000;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.bottom-bar {
+    background-color: #fbf6f0;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    float: bottom;
+    overflow: hidden;
+    padding: 30px;
+    width: 100%;
+    font-family: "Poiret One";
+    text-align: center;
+    text-decoration: none;
+    z-index: 2;
+}
+
+/* For index.html */
+
+.info-box {
+    background-color: #fcb77f;
+    float: left;
+    overflow: auto;
+    position: absolute;
+    height: 100%;
+}
+
+.info-box p.info {
+    color: #000000;
+    font-family: "Poiret One";
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.letters-box {
+    background-color: #aee6e6;
+    float: none;
+    position: fixed;
+    top: 165px;
+    right: 600px;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+.letters-box div.title {
+    color: #4c0082;
+    float: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Paytone One';
+    font-size: 30pt;
+    text-align: center;
+}
+
+.letters-box div.letter {
+    color: #0057c9;
+    float: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Paytone One';
+    font-size: 90pt;
+    text-align: center;
+}
+
+.letters-box p.info {
+    color: #000000;
+    padding: 10px;
+    font-family: "Poiret One";
+    font-size: 20pt;
+    text-align: center;
+}
+
+.numbers-box {
+    background-color: #aee6e6;
+    float: none;
+    position: fixed;
+    top: 165px;
+    right: 150px;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+.numbers-box div.title {
+    color: #4c0082;
+    float: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Paytone One';
+    font-size: 30pt;
+    text-align: center;
+}
+
+.numbers-box div.letter {
+    color: #0057c9;
+    float: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Paytone One';
+    font-size: 90pt;
+    text-align: center;
+}
+
+.numbers-box p.info {
+    color: #000000;
+    padding: 10px;
+    font-family: "Poiret One";
+    font-size: 20pt;
+    text-align: center;
 }
 
 .titleBox {
